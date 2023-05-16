@@ -1,0 +1,35 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+  
+
+- story: Consultation
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: consultation_solde
+  
+- story: transaction
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: derniere_transaction
+  
+- story: recharge
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: recharge_telehonique
+  - action: utter_recharge_telehonique
+
+
+  
+
+

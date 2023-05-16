@@ -1,0 +1,97 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - السلام
+    - السلام عليكم 
+    - واش
+    - صْباح النور
+    - صْباح الخير 
+    - لا باس عليك
+    - كي داير 
+- intent: goodbye
+  examples: |
+    - goodbye
+    - الله يعاون
+    - صافي هذا الشيء اللي كنت باغيه
+    - صافي بسلامه
+    - تهلا
+    - بسلامة
+
+- intent: affirm
+  examples: |
+    - yes
+    - اه بالصح
+    - صافي شكرا
+    - عندك الصح
+    - هادشي زوين
+    - اه
+- intent: deny
+  examples: |
+    - no
+    - لا
+    - ما يمكنش
+    - نهائيا
+    - ما بغيتش
+- intent: mood_great
+  examples: |
+    - perfect
+    - الحمد لله
+    - اللهم لك الحمد
+    - والله الا بخير
+    - فرحان
+    - سعيد
+    - بخير
+- intent: mood_unhappy
+  examples: |
+    - so sad
+    - الاعصاب
+    - هذا الشيء كايمرض
+    - معجبنيش هذا الشيء
+    - راني مقلق
+    - راني معصب
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - واش انت روبو
+    - مع من كندوي انا دابا
+    - واش انا كندوي مع روبو
+    - انت واش بنادم
+
+- intent: consultation_solde
+  examples: |
+    -شحال عندي ف الحساب ديالي
+    -شحال د لفلوس لعندي
+    -شحال عندي فلبنكة
+    -بغيت نشوف صولد ديالي
+    -بغيت نعرف فلوسي
+    -شحال عندي فلبنكة
+    -بغيت نشوف صولد ديالي
+   
+- intent: recharge_telehonique
+  examples: |
+      -بغيت تعبئة
+      -بغيت نعبأ	
+      -بغيت روشارج
+
+- intent: derniere_transaction
+  examples: |
+      -بغيت نشوف لمن صيفط الفلوس
+      -بغيت نعرف شكون صيفط ليا الفلوس
+      -فين مشاو فلوسي
+
+- intent: frequent_question
+  examples: |
+      - شحال اتقطعو لي من الكونط
+
+- intent: frequent_question1
+  examples: |
+      - فين كاينين كيشيات ديال كازا
+
+- intent: frequent_question2
+  examples: |
+      - بغيت ريب ديالي
+
