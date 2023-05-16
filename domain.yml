@@ -1,0 +1,55 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - consultation_solde
+  - recharge_telehonique
+  - derniere_transaction
+  - frequent_question
+  - frequent_question1
+  - frequent_question2
+  
+responses:
+  utter_greet:
+  - custom:
+        payload: audio
+        src: "https://youtu.be/nLUu3soCn3o"
+  utter_greet1:
+  - text: "باش تستافد من الخدمات ديالنا. خاسك دخل رمزك السري"
+
+  utter_cheer_up:
+  - text: "ها هي شي حاجه اللي تقدر تعاونك"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_frequent_question:
+  - text: "خمسة دراهم في شهر"
+
+  utter_recharge_telehonique:
+  - text: "واش بغيتي تعبئة اتصالات و لا أورونج و لا إنوي"
+
+  utter_did_that_help:
+  - text: "واش هذا الشيء عاونك"
+
+  utter_happy:
+  - text: "مزيان كمل هكا"
+
+  utter_goodbye:
+  - text: "الله يعاونك"
+
+  utter_iamabot:
+  - text: " انا روبو وتصايبت بRasa "
+
+
+entities:
+  - LINK
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
